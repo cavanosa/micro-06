@@ -10,4 +10,4 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 refresh:
-  value: refresh 2
+  value: refresh 3
