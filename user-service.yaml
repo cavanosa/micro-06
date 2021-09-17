@@ -10,7 +10,6 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
   admin-paths:
-    listAdminEndpoints:
-      -
-        uri: "/libro"
-        method: "POST"
+    -
+      uri: "/libro"
+      method: "POST"
